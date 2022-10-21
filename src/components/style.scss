@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+// generales
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url(../components/multimedia/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+//   body tag
+  .body{
+    background-color: #00000098;
+    .body_header{
+        grid-area: a;
+
+        .header_nav{
+            display: flex;
+            justify-content: space-between;
+            p{
+                color: #CBE702;
+            }
+            .btn{
+                color: #CBE702;
+            }
+            .dropdown-menu{
+                background-color: #CBE702;
+                color: #000;
+            }
+        }
+        .header_hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+    }
+    .body_main{
+        grid-area: b;
+    }
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-family: 900;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    color: #CBE702;
+    font-weight: 200;
+}
+// main
+.body_main{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    h3{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        line-height: 29px;
+        margin: 30px 0;
+        color: #FFFFFF;
+    }
+    .main_formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        input{
+            background: none;
+            border: 5px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 8px 2px #CBE702;
+            border-radius: 20px;
+            padding-left: 5px;
+            color: #fff;
+        }
+        input::placeholder{
+            padding-left: 5px;
+            color: #fff;
+        }
+        button{                            
+            background: rgba(0, 0, 0, 0.63);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 5px 5px 10px 2px rgba(203, 231, 2, 0.9);
+            border-radius: 20px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            margin-top: 48px;
+            color: #CBE702;
+        }
+    }
+    .main_registrarse{
+        color: #fff;
+        margin-top: 38px;
+        .registrarse_button{
+            border: none;
+            background-color: rgba(255, 255, 255, 0);
+            color: #fff;
+        }
+    }
+}
+// responsive mobile
+  @media screen and (max-width: 768px) {
+    body {
+        margin: 16px 16px;
+
+        
+        .body{
+            grid-template-columns: repeat(4,1fr);
+            column-gap: 16px;
+            display: grid;
+            grid-template-areas: "a a a a"
+            "b b b b"
+            "c c c c"
+            "d d d d";
+            .body_header{
+
+                .header_nav{
+                    .btn{
+                        img{
+                            width: 30px;
+                        }
+                    }
+                }
+                h1{
+                    font-size: 42px;
+                    line-height: 49px;
+                }
+                h2{
+                    font-size: 25px;
+                    line-height: 29px;
+                }
+            }
+            .body_main{
+                display: grid;
+                justify-content: center;
+                text-align: center;
+                h3{
+                    font-size: 25px;
+                }
+                .main_formulario{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    input{
+                        width: 259px;
+                        height: 33px;
+                    }
+
+                    button{
+                        width: 169px;
+                        height: 29px;
+                        left: 75px;
+                        top: 384px;                            
+                    }
+                }
+
+            }
+        }
+    }
+
+
+  }
+// responsive desktop basics
+  @media (min-width:769px) {
+    body {
+        margin: 24px 24px;
+
+        
+        .body{
+            grid-template-columns: repeat(8,1fr);
+            column-gap: 16px;
+            display: grid;
+            grid-template-areas: "a a a a a a a a"
+            "b b b b b b b b"
+            "c c c c c c c c"
+            "d d d d d d d d";
+            .body_header{
+
+                .header_nav{
+                    .btn{
+                        img{
+                            width: 30px;
+                        }
+                    }
+                }
+                h1{
+                    font-size: 105px;
+                    line-height: 123px;
+                    margin-top: 50px;
+                }
+                h2{
+                    font-size: 80px;
+                    line-height: 94px;
+                }
+            }
+            .body_main{
+                display: grid;
+                justify-content: center;
+                text-align: center;
+                h3{
+                    font-size: 50px;
+                }
+                .main_formulario{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    input{
+                        width: 500px;
+                        height: 60px;
+                    }
+
+                    button{
+                        width: 500px;
+                        height: 50px;
+                        font-size: 24px;                          
+                    }
+                }
+
+            }
+        }
+    }
+
+
+  }    
