@@ -1,14 +1,18 @@
 import React from "react";
-
-import CartButton from "./cartButton/cartButton";
-import Sections from "./sections-nav/sections";
-import Dropdown from "./dropdown/dropdown";
+import { Link } from "react-router-dom";
+import CartWidget from "./cartWidget/cartWidget";
+import Secciones from "./Secciones/secciones";
+import Logo from '../../assets/logo-min.png'
+import '../style.scss';
 const navBar = ()=>{
     return(
         <>
-        <Sections/>
-        <Dropdown/>
-        <CartButton/>
+        <div className="header_nav">
+        <Link to="/"><img src={Logo} alt="logo-wicca-shop"  className="logo"/></Link>
+        <Secciones/>
+        <CartWidget/>            
+        </div>
+
 
         </>
     )

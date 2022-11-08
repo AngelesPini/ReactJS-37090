@@ -1,20 +1,26 @@
 import React from "react";
-import { Routes, Route} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
+
+import ItemListContainer from "./ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./ItemDetailContainer/ItemDetailContainer";
+import Cart from "./Cart/Cart";
+import Header from "./header/header";
+import NavBar from "./navBar/navBar";
+import Footer from "./Footer/footer";
 import './style.scss';
-
-import Login from './login/login';
-import Home from './home/home';
-import Registro from './registro/registro';
-import ItemListContainer from "./itemListContainer/itemListContainer";
-
 function App() {
   return (
+    <>    
+    <NavBar/>
+    <Header/>
     <Routes>
-      <Route exact path="/" element={<Home/>} />
-      <Route exact path = "/home" element={<Login/>}/>
-      <Route exact path = "/registro" element={<Registro/>}/>
-      <Route exact path="/itemListContainer" element={<ItemListContainer/>}/>
+      <Route path="/" element={<ItemListContainer/>} />
+      <Route path="/product/:id" element={<ItemDetailContainer/>}/>
+      <Route path="/category/:category" element={<ItemListContainer/>} />
+      <Route path="/cart" element={<Cart/>}/>
     </Routes>
+<Footer/>
+    </>
   );
 }
 

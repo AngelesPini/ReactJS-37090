@@ -1,9 +1,18 @@
 import React from 'react';
+import Cart from '../../multimedia/cart.png';
+import { Link } from 'react-router-dom';
 
 const CartWidget = () => {
     return (
         <>
-            <h1>Carrito</h1>
+
+            <Link to="/cart">        
+            <button className='btn'>
+                <img src={Cart} alt="icono carrito para boton" />
+            </button>
+            </Link>
+ 
+
         </>
     );
 }

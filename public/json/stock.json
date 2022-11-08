@@ -1,0 +1,191 @@
+[
+    {
+        "id" : 1,
+        "idCat":1,
+        "nombre": "Riñonera",
+        "modelo": "Prudence Brown",
+        "precio": 2500,
+        "stock": 10,
+        "img": "prudence-brown.png"
+    },
+    {
+        "id" : 2,
+        "idCat":1,
+        "nombre": "Riñonera",
+        "modelo": "Prudence Budapest",
+        "precio": 2500,
+        "stock": 10,
+        "img": "prudence-budapest.png"
+    },
+    {
+        "id" : 3,
+        "idCat":1,
+        "nombre": "Riñonera",
+        "modelo": "Prudence Pastel",
+        "precio": 2500,
+        "stock": 10,
+        "img": "prudence-pastel.png"
+    },
+    {
+        "id" : 4,
+        "idCat":1,
+        "nombre": "Riñonera",
+        "modelo": "Prudence Stars",
+        "precio": 2500,
+        "stock": 10,
+        "img": "prudence-stars.png"
+    },
+    {
+        "id" : 5,
+        "idCat":1,
+        "nombre": "Riñonera",
+        "modelo": "Prudence Warning",
+        "precio": 2500,
+        "stock": 10,
+        "img": "prudence-warning.png"
+    },
+    {
+        "id" : 6,
+        "idCat":1,
+        "nombre": "Riñonera",
+        "modelo": "Prudence Yellow",
+        "precio": 2500,
+        "stock": 10,
+        "img": "prudence-yellow.png"
+    },
+    {
+        "id":7,
+        "idCat":2,
+        "nombre": "Riñonera",
+        "modelo": "Dorcas Black",
+        "precio": 3000,
+        "stock": 5,
+        "img": "dorcas-black.png"
+    },
+    {
+        "id":8,
+        "idCat":2,
+        "nombre": "Riñonera",
+        "modelo": "Dorcas Black Eco",
+        "precio": 3000,
+        "stock": 5,
+        "img": "dorcas-black-ecocuero.png"
+    },
+    {
+        "id":9,
+        "idCat":2,
+        "nombre": "Riñonera",
+        "modelo": "Dorcas Fluor",
+        "precio": 3000,
+        "stock": 5,
+        "img": "dorcas-fluor.png"
+    },
+    {
+        "id":10,
+        "idCat":2,
+        "nombre": "Riñonera",
+        "modelo": "Dorcas Pink",
+        "precio": 3000,
+        "stock": 5,
+        "img": "dorcas-pink.png"
+    },
+    {
+        "id":11,
+        "idCat":2,
+        "nombre": "Riñonera",
+        "modelo": "Dorcas White",
+        "precio": 3000,
+        "stock": 5,
+        "img": "dorcas-white.png"
+    },
+    {
+        "id":12,
+        "idCat":3,
+        "nombre": "Riñonera",
+        "modelo": "Agatha Silver",
+        "precio": 3000,
+        "stock": 5,
+        "img": "agatha-silver.png"
+    },
+    {
+        "id":13,
+        "idCat":3,
+        "nombre": "Riñonera",
+        "modelo": "Agatha Brown",
+        "precio": 3000,
+        "stock": 5,
+        "img": "agatha-brown.jpg"
+    },
+    {
+        "id":14,
+        "idCat":4,
+        "nombre": "Riñonera",
+        "modelo": "Clasica Doble Charol",
+        "precio": 2000,
+        "stock": 20,
+        "img": "clasica-doble-charol.png"
+    },
+    {
+        "id":15,
+        "idCat":4,
+        "nombre": "Riñonera",
+        "modelo": "Clasica Doble Ojos Turcos",
+        "precio": 2000,
+        "stock": 20,
+        "img": "clasica-doble-ojos-turcos.png"
+    },
+    {
+        "id":16,
+        "idCat":4,
+        "nombre": "Riñonera",
+        "modelo": "Clasica Doble Suela",
+        "precio": 2000,
+        "stock": 20,
+        "img": "clasica-doble-suela.png"
+    },
+    {
+        "id":17,
+        "idCat":4,
+        "nombre": "Riñonera",
+        "modelo": "Clasica Doble Warning",
+        "precio": 2000,
+        "stock": 20,
+        "img": "clasica-doble-warning.png"
+    },
+    {
+        "id":18,
+        "idCat":4,
+        "nombre": "Riñonera",
+        "modelo": "Clasica Simple Cow",
+        "precio": 1700,
+        "stock": 10,
+        "img": "clasica-simple-animal-cow.png"
+    },
+    {
+        "id":19,
+        "idCat":4,
+        "nombre": "Riñonera",
+        "modelo": "Clasica Simple Pink",
+        "precio": 1700,
+        "stock": 10,
+        "img": "clasica-simple-animal-pink.png"
+    },
+    {
+        "id":20,
+        "idCat":4,
+        "nombre": "Riñonera",
+        "modelo": "Clasica Simple Silver",
+        "precio": 1700,
+        "stock": 10,
+        "img": "clasica-simple-silver.png"
+    },
+    {
+        "id":21,
+        "idCat":4,
+        "nombre": "Riñonera",
+        "modelo": "Clasica Simple Warning",
+        "precio": 1700,
+        "stock": 10,
+        "img": "clasica-simple-warning.png"
+    }
+]
